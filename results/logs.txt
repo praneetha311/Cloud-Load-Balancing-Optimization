@@ -1,0 +1,13 @@
+import logging
+
+# Configure logging
+logging.basicConfig(filename="results/logs.txt", level=logging.INFO, format="%(asctime)s - %(message)s")
+
+def log_event(message):
+    logging.info(message)
+
+# Example Usage
+log_event("Cloud Load Balancer Initialized")
+log_event("Ant Colony Optimization Started")
+log_event("Task T1 assigned to Server 3")
+log_event("Optimization Completed Successfully")

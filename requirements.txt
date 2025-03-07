@@ -1,0 +1,5 @@
+numpy	-Numerical operations (used in optimization algorithms)
+pandas	-Handling and processing large datasets
+matplotlib	-Visualization (plotting load balancing performance)
+scipy	-Advanced mathematical and scientific computations (for ACO & ABC optimization)
+cloudsim-python	-Cloud simulation framework (if used)

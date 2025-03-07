@@ -1,0 +1,13 @@
+import matplotlib.pyplot as plt
+
+# Sample data: Response times before and after optimization
+methods = ["Without Optimization", "ACO", "ABC"]
+response_time = [5.6, 3.2, 2.8]  # Hypothetical response times in seconds
+
+# Plot results
+plt.bar(methods, response_time, color=['red', 'blue', 'green'])
+plt.xlabel("Load Balancing Method")
+plt.ylabel("Average Response Time (s)")
+plt.title("Cloud Load Balancing Performance")
+plt.savefig("results/results_plot.png")  # Save the figure
+plt.show()
